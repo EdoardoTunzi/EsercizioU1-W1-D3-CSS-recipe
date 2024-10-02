@@ -28,9 +28,8 @@ header hr {
 }
 
 #article img {
-  width: 900px;
+  width: 1100px;
   border-radius: 2%;
-  box-shadow: inset;
 }
 
 #article cite {
