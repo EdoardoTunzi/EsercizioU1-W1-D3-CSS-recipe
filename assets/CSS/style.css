@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  font-family: "Frank Ruhl Libre", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+main {
+  padding: 300px;
+  padding-top: 2em;
+  padding-bottom: 0;
+  display: block;
+  text-align: center;
+}
+main div {
+  display: block;
+}
+
+header p {
+  color: #347474;
+  background-color: rgba(255, 165, 0, 0.1);
+  margin-top: 0;
+}
+
+header hr {
+  margin-bottom: 0;
+}
+
+#article img {
+  border-radius: 2%;
+  box-shadow: inset;
+}
+
+#article cite {
+  color: grey;
+  padding-top: 2em;
+}
+
+#article p {
+  margin: 8em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+#featured {
+  margin: 7em;
+  margin-top: 0;
+  text-align: left;
+  background-color: rgba(255, 165, 0, 0.1);
+}
+#featured p {
+  color: orange;
+  margin-bottom: 0%;
+}
+#featured a {
+  color: #347474;
+}
+
+#ingredients ul li {
+  text-align: left;
+}
+
+#ingredients p {
+  display: block;
+  text-align: left;
+}
+
+#ingredients hr {
+  color: #347474;
+}
+
+#method ol li {
+  text-align: left;
+}
+
+footer p {
+  padding: 300px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  text-align: left;
+}
+
+footer a {
+  color: #347474;
+}
