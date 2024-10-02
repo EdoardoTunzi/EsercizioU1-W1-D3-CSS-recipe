@@ -1,88 +1,80 @@
 body {
-  text-align: center;
+  margin: 0;
   font-family: "Frank Ruhl Libre", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-main {
-  padding: 300px;
-  padding-top: 2em;
-  padding-bottom: 0;
-  display: block;
+
+header {
   text-align: center;
 }
-main div {
-  display: block;
+header img {
+  height: 100px;
+  margin-block: 1rem;
 }
-
 header p {
-  color: #347474;
-  background-color: rgba(255, 165, 0, 0.1);
-  margin-top: 0;
-  line-height: 3;
-}
-
-header hr {
-  margin-bottom: 0;
-}
-
-#article img {
-  width: 1100px;
-  border-radius: 2%;
-}
-
-#article cite {
-  color: grey;
-  padding-top: 2em;
-}
-
-#article p {
-  font-size: 1.2em;
-  margin: 2em;
-  margin-top: 0;
-  margin-bottom: 1em;
-  text-align: left;
-}
-
-#featured {
-  margin: 2em;
-  margin-top: 0;
-  text-align: left;
-  background-color: rgba(255, 165, 0, 0.1);
-}
-#featured p {
-  color: orange;
-  margin-bottom: 0%;
-}
-#featured a {
+  margin: 0;
   color: #347474;
 }
 
-#ingredients ul li {
-  text-align: left;
+header .ribbon {
+  padding-block: 1rem;
+  background-color: #fdfbf1;
+  border-top: 2px solid #ffd777;
+}
+main,
+footer {
+  max-width: 700px;
+  margin-inline: auto;
 }
 
-#ingredients p {
-  display: block;
-  text-align: left;
+main h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2.5em;
 }
-
-#ingredients hr {
-  color: #347474;
-}
-
-#method ol li {
-  text-align: left;
-}
-
-footer p {
-  padding: 300px;
-  padding-top: 0%;
-  padding-bottom: 0%;
-  text-align: left;
+main img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 footer a {
   color: #347474;
+}
+
+main cite {
+  color: rgb(175, 172, 172);
+  text-align: center;
+}
+.banner {
+  margin-block: 2rem;
+  border-left: 2px solid #ffd777;
+  padding-left: 1rem;
+}
+
+.banner h3 {
+  color: #8e2520;
+  margin-block: 0;
+}
+.banner a {
+  color: #347474;
+}
+
+.ingredients hr {
+  border: none;
+  height: 2px;
+  background-color: #347474;
+}
+.ingredients ul li {
+  margin-bottom: 10px; /* Spazio extra sotto ogni elemento della lista */
+}
+.method hr {
+  border: none;
+  height: 2px;
+  background-color: #347474;
+}
+.method ol li {
+  margin-bottom: 10px; /* Spazio extra sotto ogni elemento della lista */
 }
